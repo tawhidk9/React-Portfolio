@@ -3,6 +3,7 @@ import Header from "./components/header"
 import Footer from "./components/footer"
 import Navigation from "./components/Navigation"
 import Project from "./components/project"
+import Contact from "./components/Contact"
 
 
 
@@ -15,6 +16,7 @@ function App() {
       <Footer/>
       <Navigation/>
       <Project/>
+      <Contact/>
       </div>
         
     </>
