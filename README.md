@@ -1,8 +1,37 @@
-# React + Vite
+# REACT Portfolio
+  
+  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+  ## Description
+  This is my personal portfolio create with VITE+REACT
 
-Currently, two official plugins are available:
+  ## Table of Contents
+  1. [Installation](#installation)
+  2. [Usage](#usage)
+  3. [License](#license)
+  4. [Contributing](#contributing)
+  5. [Tests](#tests)
+  6. [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  ## Installation
+  User must insStall/run: Checkout the deployment
+
+  https://main--cozy-froyo-cf4085.netlify.app/
+
+  ## Usage
+  Click the deployment link
+
+  ## License 
+  
+  
+
+  ## Contributing
+  N/A
+
+  ## Tests
+  To test: N/A
+
+  ## Questions
+  Questions/Concerns/Etc: [tawhidkamal5@gmail.com](mailto:tawhidkamal5@gmail.com)
+  
+  More of my work:: [tawhidk9](https://www.github.com/tawhidk9)
