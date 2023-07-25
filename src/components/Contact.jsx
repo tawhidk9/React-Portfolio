@@ -20,7 +20,8 @@ const Contact = () => {
   };
 
   return (
-    <div id='contact' className='flex flex-col mb-10 mx-auto items-center'>
+    <section id='contact' className="relative">
+      <div className='flex flex-col mb-10 mx-auto items-center'>
     <form  className='flex flex-col w-full md:w-7/12 items-center pt-10' onSubmit={handleSubmit}>
       <div className='px-2 py-1 font-semibold border-2 border-emerald-800 rounded-md'>
         <label htmlFor="name">Name:</label>
@@ -62,6 +63,8 @@ const Contact = () => {
       </div>
     </form>
     </div>
+    </section>
+    
 
   );
 };
