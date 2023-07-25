@@ -15,6 +15,8 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    localStorage.setItem('formData', JSON.stringify(formData));
+
     console.log(formData);
     setFormData({ name: '', email: '', message: '' });
   };
@@ -31,7 +33,7 @@ const Contact = () => {
           id="name"
           name="name"
           value={formData.name}
-          onChange={handleChange}
+          onChange={handleChange} 
           required
         />
       </div>
@@ -58,8 +60,13 @@ const Contact = () => {
           required
         />
       </div>
-      <div className='px-2 py-1 font-semibold border-2 border-emerald-800 rounded-md'>
-        <button type="submit">Submit</button>
+      <div className='px-2 py-1 font-semibold border-2 border-emerald-800 rounded-md hover:bg-emerald-500'>
+        <button 
+        type="submit"
+        onClick={handleSubmit}
+        >
+        Submit
+        </button>
       </div>
     </form>
     </div>
