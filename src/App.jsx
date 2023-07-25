@@ -10,16 +10,18 @@ import Contact from "./components/Contact"
 function App() {
 
   return (
-    <>
+    <main className="text-emerald-600 bg-neutral-800 body-font">
       <div className='App'>
       <Header/>
-      <Footer/>
       <Navigation/>
       <Project/>
       <Contact/>
+      <Footer/>
       </div>
         
-    </>
+    </main>
+      
+   
   )
 }
 
